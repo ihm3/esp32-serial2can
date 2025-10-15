@@ -1,3 +1,29 @@
+/******************************************************************************
+ * @file           : main.c
+ * @brief          : can interface for esp32 usb2can
+ * @author         : İ.H. Metehan Erol
+ * @date           : 2023-8-5
+ ******************************************************************************
+ * @details
+ * This file is part of the ESP32 seril2can repository.
+ * 
+ * Description:
+ *  can bus handler aim to work with slcan protochol
+ *   
+ * 
+ *
+ *
+ * Dependencies:
+ *   - ESP IDF
+ *   - GCC / Make
+ *   - Platformio
+ *
+ * License:
+ *   This software is distributed under the MIT License.
+ *
+ ******************************************************************************
+ */
+
 #include "can.h"
 
 static void set_bitrate(slcan_bit_rete_t rate, twai_timing_config_t* configuretiming){

@@ -1,3 +1,31 @@
+/**
+ ******************************************************************************
+ * @file           : serial.c
+ * @brief          : serial com. part of  esp32 usb2can
+ * @author         : İ.H. Metehan Erol
+ * @date           : 2023-8-5
+ ******************************************************************************
+ * @details
+ * This file is part of the ESP32 seril2can repository.
+ * 
+ * Description:
+ *  hardware level serial interface for ÊSP32 to handle serial com. side for serial2can
+ *   
+ * 
+ *
+ *
+ * Dependencies:
+ *   - ESP IDF
+ *   - GCC / Make
+ *   - Platformio
+ *
+ * License:
+ *   This software is distributed under the MIT License.
+ *
+ ******************************************************************************
+ */
+
+ 
 #ifndef __UART_HANDLE
 #define __UART_HANDLE
 

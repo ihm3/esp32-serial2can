@@ -1,3 +1,31 @@
+/******************************************************************************
+ * @file           : main.c
+ * @brief          : can interface for esp32 usb2can
+ * @author         : İ.H. Metehan Erol
+ * @date           : 2023-8-5
+ ******************************************************************************
+ * @details
+ * This file is part of the ESP32 seril2can repository.
+ * 
+ * Description:
+ *  slcan p. handler
+ *   
+ * 
+ *
+ *
+ * Dependencies:
+ *   - ESP IDF
+ *   - GCC / Make
+ *   - Platformio
+ *
+ * License:
+ *   This software is distributed under the MIT License.
+ *
+ ******************************************************************************
+ */
+
+ 
+
 #include "slcan.h"
 #include "serial.h"
 #include "can.h"
