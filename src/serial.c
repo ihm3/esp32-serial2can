@@ -26,9 +26,6 @@
  ******************************************************************************
  */
 
-//  ----   config ----
-
-#define BLE_FETURE 0 // enabe ble
 
 #include "serial.h"
 #include "freertos/timers.h"
