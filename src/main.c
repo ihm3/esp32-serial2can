@@ -25,10 +25,6 @@
  */
 
 
- //  ----   config ----
-
-
-
 
 
 
@@ -40,8 +36,6 @@
 #include "string.h"
 #include <stdbool.h>
 #include <stdint.h>
-
-#define BLE_FEATURE 0
 
 QueueHandle_t slTxQueue;
 
